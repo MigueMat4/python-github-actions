@@ -22,3 +22,6 @@ jobs:
 
             - name: Run test
               run: python -m pytest
+
+            - name: Display successful build message
+              run: python -c "print('Compilación exitosa')"
